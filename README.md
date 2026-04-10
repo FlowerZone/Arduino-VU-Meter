@@ -1,6 +1,6 @@
 # Arduino-VU-Meter
 
-An interactive **7-Level VU Meter** (Volume Unit Meter) built with an Arduino and a High-Sensitivity Sound Sensor. This project visualizes ambient sound levels in real-time using a sequence of LEDs that react to volume intensity.
+An interactive **7-Level VU Meter** (Volume Unit Meter) built with an Arduino. I used an UNO, but I guess you can make it work with whatever you have and adjust the code as necessary. And a High-Sensitivity Sound Sensor. This project visualizes ambient sound levels in real-time using a sequence of LEDs that react to volume intensity.
 
 ## 🛠 Project Overview
 This project uses an analog microphone module to detect sound pressure. The Arduino samples the audio input, calculates the average intensity, and maps it to a 7-step LED display. It's perfect for adding a visual "music-reactive" element to your desk setup.
